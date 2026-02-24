@@ -83,7 +83,7 @@ def caesar(ch,direc,ot,sa):
             
 
 print(logo)
-direction = input("Do you want to Encrypt(Encode) or Decrypt(Decode)?").lower()
+direction = input("Do you want to Encrypt(Encode) or Decrypt(Decode)? \n").lower()
 if direction != 'encode' and direction != 'decode':
     print('Incorrect Choice. Good Bye!!!')
     quit()
